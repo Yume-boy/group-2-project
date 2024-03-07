@@ -1,0 +1,64 @@
+.filter {
+    border-radius: 5px !important;
+}
+
+.height {
+    height: 200px;
+}
+
+h6 {
+    font-size: .9rem !important;
+    font-weight: 600;
+}
+
+.side-menu {
+    padding-left: 10px;
+    padding: 8px 24px !important;
+    font-size: .9rem !important;
+    font-weight: normal;
+}
+
+.side-menu:hover {
+    background-color: #dedede;
+    width: 100%;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #dcdcdc !important;
+}
+
+.input-group {
+    border-radius: 20px !important;
+}
+
+.search-bar input {
+    border-left: none !important;
+}
+
+.input-group-text {
+    border-right: 0 !important;
+    border-radius: 20px 0 0 20px !important;
+}
+
+.form-control {
+    border-left: none !important;
+    border-radius: 0 20px 20px 0 !important;
+}
+
+.text-span {
+    font-size: 14px !important;
+    font-weight: 500;
+}
+
+.text-spans {
+    font-size: 13px !important;
+    background-color: #0040ce;
+    border-radius: 2px !important;
+    padding: 1px 6px !important;
+    color: #fff;
+}
+
+.text-spanx {
+    font-size: 13px !important;
+}

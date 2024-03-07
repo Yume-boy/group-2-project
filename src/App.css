@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100vw !important;
+}
+
+@media (max-width: 480px) {
+    body {
+        width: 100vw !important;
+        overflow-x: hidden;
+    }
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: inherit !important;
+}

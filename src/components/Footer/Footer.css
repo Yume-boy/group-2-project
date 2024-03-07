@@ -1,0 +1,119 @@
+.footer-top-strip {
+    background: #5f5656;
+    width: 100%;
+}
+
+.footer-bottom-strip {
+    background: #706b6b;
+    width: 100%;
+}
+
+.footer-border:last-child {
+    border-top: 1px solid rgba(155, 146, 146, 0.021)1);
+}
+
+.footer-top-strip .input-group-text:nth-child(1) {
+    
+    border-right: none;
+}
+
+.footer-top-strip input {
+    border-left: none;
+}
+
+.footer-top-strip button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-left: 8px;
+}
+
+.footer-top-strip button:hover {
+    border-color: #f68b1e;
+    color: #f68b1e !important;
+} 
+
+.input-group span {
+    background-color: #fff;
+}
+
+.star-box {
+    background-color: #f68b1e;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.left-text {
+    padding-left: 8px;
+}
+
+.left-text-header {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .85rem;
+}
+
+.left-text-content {
+    font-weight: normal;
+    font-size: .85rem;
+}
+
+.footer-link {
+    text-decoration: none !important;
+    color: #f1f1f2;
+}
+
+.footer-link:hover {
+    text-decoration: underline !important;
+}
+
+.social-icons:hover {
+    color: #f68b1e !important;
+}
+
+.small-screen {
+    display: none !important;
+}
+
+@media (max-width: 1034px) {
+    .footer-top-strip,
+    .footer-bottom-strip {
+        display: none !important;
+    }
+
+    .small-screen {
+        display: block !important;
+    }
+
+    .mobile-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px !important;
+        background-color: #474747 !important;
+        padding: 7px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .mobile-top span {
+        font-size: 10px !important;
+    }
+
+    .mobile-middle p {
+        font-size: 12px !important;
+        font-weight: 600;
+        color: #545454;
+    }
+
+    .mobile-middle span {
+        font-size: 9px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .mobile-middle {
+        background-color: #313131 !important;
+        padding: 12px 0 4px !important;
+    }
+}

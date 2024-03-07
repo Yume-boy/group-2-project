@@ -1,0 +1,138 @@
+/* .form-control:focus {
+    box-shadow: none !important;
+    border-color: #dcdcdc !important;
+}
+
+.body {
+    width: 100% !important;
+}
+
+.header-top-strip {
+    background: #4b797d;
+    width: 100%;
+}
+
+.header-middle-strip {
+    background: #f1f1f2;
+    width: 100%;
+}
+
+.header-bottom-strip {
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 2px 7px -4px rgba(0,0,0,0.3);
+}
+
+.header-bottom-strip .input-group-text:nth-child(1) {
+    background-color: transparent;
+    border-right: none;
+}
+
+.header-bottom-strip input {
+    border-left: none;
+}
+
+.header-bottom-strip button {
+    background-color: #f68b1e;
+    margin-left: 8px;
+    font-size: .8rem;
+    padding: 8px 14px ;
+}
+
+.header-bottom-strip button:hover {
+    background-color: #d16b05;
+} 
+
+.link-text {
+    text-decoration: none;
+}
+
+.g-10 {
+    gap: 10px !important;
+    margin-right: 7px !important;
+}
+
+.link-text:hover {
+    color: #f68b1e !important;
+}
+
+
+
+.header-bottom-strip .menu span {
+    height: 2px;
+    width: 22px;
+    background-color: #252525;
+    border-radius: .2rem;
+}
+
+.input-group {
+    border-radius: 20px !important;
+}
+
+.search-button {
+    display: none;
+}
+
+.menu-main img {
+    margin-left: 10px !important;
+}
+
+@media (max-width: 767px) {
+
+    .menu-main .px-5 {
+        padding: 0 !important;
+    }
+
+    .menu-main img {
+        margin-left: 10px !important;
+    }
+
+    .header-middle-strip {
+        display: none;
+    }
+
+    .px-5 {
+        padding: 0 .4rem !important;
+    }
+
+    .logo {
+        margin-left: -2.5rem;
+    }
+
+    .header-bottom-strip .col-6 {
+        display: none !important;
+    } 
+
+    .form-control {
+        border-radius: 20px !important;
+    }
+
+    .header-bottom-strip .input-group-text:nth-child(1) {
+        display: none;
+    }
+
+    .search-button {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .menu-main {
+        justify-content: space-between;
+    }
+
+    .header-bottom-links p {
+        display: none !important;
+    }
+
+    .link-arrow-down {
+        display: none;
+    }
+
+    .link-text:nth-child(2) {
+        display: none !important;
+    }
+
+    .link-text {
+        padding: 10px !important;
+    }
+} */
