@@ -1092,7 +1092,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link to={'/'}>
-                    <img className='img-fluid logo' width={140} height={32} src="../public/Jumia-Logo.png" alt="" />
+                    <img className='img-fluid logo' width={140} height={32} src={JumiaLogo} alt="" />
                   </Link>
                 </div>
               </div>
