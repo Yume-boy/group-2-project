@@ -25,7 +25,7 @@ import { LuBaby } from "react-icons/lu";
 import { IoIosArrowDown, IoIosHelpCircleOutline } from "react-icons/io";import { IoCartOutline } from "react-icons/io5";
 import { MdOutlineMarkChatRead } from "react-icons/md";
 import { LuTicket } from "react-icons/lu";
-
+import JumiaImage from 'public/Jumia-Logo.png'
 
 
 
@@ -196,7 +196,7 @@ const Header = () => {
               </div>
               <div className="col-6 text-center">
                 <img className='img-fluid me-3' width={67} height={20} src="public/Jumia-Logo.png" alt="" />
-                <img className='img-fluid me-3 jusz' width={67} height={20} src="https://drive.google.com/file/d/1N8lcCrmTdv9DMxHyKPQB_GSnMaDFjhFG/view?usp=drive_link" alt="" />
+                <img className='img-fluid me-3 jusz' width={67} height={20} src={JumiaImage} alt="" />
               </div>
               <div className="col-3 text-center" style={{color: '#f68b1e'}}>
                 
