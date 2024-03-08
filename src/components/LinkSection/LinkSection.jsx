@@ -7,13 +7,13 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Link } from 'react-router-dom';
-import pay from '../components/LinkSection/JForce (1).png'
+import pay from '../components/LinkSection/JForce(1).png'
 import top1 from '../components/LinkSection/top-1.jpg'
 import top2 from '../components/LinkSection/top-2.jpg'
-import top3 from '../components/LinkSection/top-3.jpg'
-import top4 from '../components/LinkSection/top-4.jpg'
+import top3 from '../components/LinkSection/top-3.png'
+import top4 from '../components/LinkSection/top-4.png'
 import top5 from '../components/LinkSection/top-5.jpg'
-import top6 from '../components/LinkSection/top-6.jpg'
+import top6 from '../components/LinkSection/top-6.png'
 import top7 from '../components/LinkSection/top-7.jpg'
 
 
