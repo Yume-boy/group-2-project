@@ -43,7 +43,7 @@ const CategoryProducts = () => {
     }
         return (
           <div key={yes1} className ='col-lg-3 col-6 col-md-4 my-2 item'>
-            <a href={`/productDetail/${data.id}`} className='text-reset'>
+            <Link to={`/productDetail/${data.id}`} className='text-reset'>
               <div className='data'><img src={data.imageUrl} alt="" /></div>
               <p className='overFlow'>{data.name}</p>
               <div>
@@ -54,7 +54,7 @@ const CategoryProducts = () => {
               <div className='express'>
                 <img src="https://vendorhub.jumia.co.ke/wp-content/uploads/2017/08/Jumia-Express-logo-e1556633520715.png" alt="" />
               </div>
-            </a>
+            </Link>
             <div>
             <div className={`add text-center py-2 mt-3 mb-2`} onClick={addingItems}>
               {}

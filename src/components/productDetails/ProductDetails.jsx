@@ -20,8 +20,14 @@ import { RiShieldStarFill } from "react-icons/ri";
 import { IoShareSocial } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
+import { useLayoutEffect } from 'react'
 
 const ProductDetails = () => {
+  
+    useLayoutEffect(() => {
+      window.scrollTo(0, 0)
+      });
+
   const [display, setDisplay] = useState('d-none')
   const { addItem,  } = useCart()
     let { id } = useParams();

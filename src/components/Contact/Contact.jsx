@@ -3,8 +3,16 @@ import './Contact.css'
 import { LuMessagesSquare } from "react-icons/lu";
 import contactData from '../../apiData/contactCardData';
 import { useState } from 'react';
+import { useLayoutEffect } from 'react';
 
 const Contact = () => {
+
+  
+    useLayoutEffect(() => {
+      window.scrollTo(0, 0)
+  });
+
+  
   const [contactData1, setContactData1] = useState(contactData)
 
   const render = contactData1.map((data, idx) => {
@@ -17,6 +25,8 @@ const Contact = () => {
         </div>
       )
   })
+
+  
 
   return (
     <div className='mt-4 container-lg'>

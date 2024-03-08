@@ -1,7 +1,13 @@
 import React from 'react'
 import  './About.css'
+import { useLayoutEffect } from 'react';
 
 const About = () => {
+	
+		useLayoutEffect(() => {
+		  window.scrollTo(0, 0)
+	  });
+
   return (
     <div className='bg-white '>
       <div className='container-lg d-none d-xl-block'>
