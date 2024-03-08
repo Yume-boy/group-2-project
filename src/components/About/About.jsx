@@ -1,7 +1,8 @@
 import React from 'react'
 import  './About.css'
 import { useLayoutEffect } from 'react';
-import lol from '../LinkSection/KE_W19_LP_About_us_01.jpg'
+import lol from '../LinkSection/picture.jpg'
+
 
 const About = () => {
 	
