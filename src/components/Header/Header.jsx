@@ -195,8 +195,8 @@ const Header = () => {
                 <span style={{fontSize: '.75rem', fontWeight: '600' }}>Sell on Jumia</span>
               </div>
               <div className="col-6 text-center">
-                <img className='img-fluid me-3' width={67} height={20} src={require("public/Jumia-Logo.png")} alt="" />
-                <img className='img-fluid me-3 jusz' width={67} height={20} src="./src/components/Cards/images/JumiaPay-removebg-preview.png" alt="" />
+                <img className='img-fluid me-3' width={67} height={20} src={require("./public/Jumia-Logo.png")} alt="" />
+                <img className='img-fluid me-3 jusz' width={67} height={20} src={require("./src/components/Cards/images/JumiaPay-removebg-preview.png")} alt="" />
               </div>
               <div className="col-3 text-center" style={{color: '#f68b1e'}}>
                 
