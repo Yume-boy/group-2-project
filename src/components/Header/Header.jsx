@@ -222,7 +222,7 @@ const Header = () => {
                       <div type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></div>
                       <div class="offcanvas-title ms-" id="offcanvasNavbar2Label">
                         <Link to={'/'}>
-                          <img className='img-fluid ' width={100} height={22} src={JumiaLogo} alt="" />
+                          <img className='img-fluid ' width={100} height={22} src={JumiaImage} alt="" />
                         </Link>
                     </div>
                   </div>
@@ -1092,7 +1092,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link to={'/'}>
-                    <img className='img-fluid logo' width={140} height={32} src={JumiaLogo} alt="" />
+                    <img className='img-fluid logo' width={140} height={32} src={JumiaImage} alt="" />
                   </Link>
                 </div>
               </div>
