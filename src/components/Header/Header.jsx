@@ -26,6 +26,7 @@ import { IoIosArrowDown, IoIosHelpCircleOutline } from "react-icons/io";import {
 import { MdOutlineMarkChatRead } from "react-icons/md";
 import { LuTicket } from "react-icons/lu";
 import JumiaImage from './Jumia-Logo.png'
+import JumiaPay from './JumiaPay-removebg-preview.png'
 
 
 
@@ -195,8 +196,8 @@ const Header = () => {
                 <span style={{fontSize: '.75rem', fontWeight: '600' }}>Sell on Jumia</span>
               </div>
               <div className="col-6 text-center">
-                <img className='img-fluid me-3' width={67} height={20} src="public/Jumia-Logo.png" alt="" />
-                <img className='img-fluid me-3 jusz' width={67} height={20} src={JumiaImage} alt="" />
+                <img className='img-fluid me-3' width={67} height={20} src={JumiaImage} alt="" />
+                <img className='img-fluid me-3 jusz' width={67} height={20} src={JumiaPay} alt="" />
               </div>
               <div className="col-3 text-center" style={{color: '#f68b1e'}}>
                 
