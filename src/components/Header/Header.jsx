@@ -27,6 +27,7 @@ import { MdOutlineMarkChatRead } from "react-icons/md";
 import { LuTicket } from "react-icons/lu";
 import JumiaImage from './Jumia-Logo.png'
 import JumiaPay from './JumiaPay-removebg-preview.png'
+import JumiaLogo from './jumia-logo-white.png'
 
 
 
@@ -221,7 +222,7 @@ const Header = () => {
                       <div type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></div>
                       <div class="offcanvas-title ms-" id="offcanvasNavbar2Label">
                         <Link to={'/'}>
-                          <img className='img-fluid ' width={100} height={22} src="./public/Jumia-Logo.png" alt="" />
+                          <img className='img-fluid ' width={100} height={22} src={JumiaLogo} alt="" />
                         </Link>
                     </div>
                   </div>
