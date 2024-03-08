@@ -2,7 +2,7 @@ import React from 'react'
 import phones from './../apiData/Fashion'
 import './ProductDetails.css'
 import ProductSection from './ProductSection/ProductSection'
-import imageFour from './../apiData/imageFour'
+import imageFour from '../../apiData/imageFour'
 import { FaRegStarHalfStroke } from "react-icons/fa6";
 import { useParams } from 'react-router-dom';
 import { useCart } from 'react-use-cart';
