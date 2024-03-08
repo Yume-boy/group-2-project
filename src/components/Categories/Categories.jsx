@@ -21,7 +21,7 @@ const Categories = () => {
         <div key={oh} className=''>
             <SwiperSlide className='catego'> 
               <div className='no'>
-                  <div id='yes'><img src={newer.imagesrc} /></div>
+                  <div id='yes'><img src={require (newer.imagesrc)} /></div>
                    <p>{newer.productName}</p> 
               </div>    
              </SwiperSlide>
