@@ -2,7 +2,7 @@ import card1 from '../components/Cards/images/card37.png'
 import card2 from '../components/Cards/images/card38.png'
 import card3 from '../components/Cards/images/card39.png'
 import card4 from '../components/Cards/images/card40.png'
-import card5 from '../components/Cards/images/car41.png'
+import card5 from '../components/Cards/images/cadr41.png'
 import card6 from '../components/Cards/images/card42.png'
 
 const cardData5 = [

@@ -1,7 +1,7 @@
 import card1 from '../components/Cards/images/card31.png'
 import card2 from '../components/Cards/images/card32.png'
 import card3 from '../components/Cards/images/card33.png'
-import card4 from '../components/Cards/images/card34.png'
+import card4 from '../components/Cards/images/card34.jpg'
 import card5 from '../components/Cards/images/card35.png'
 import card6 from '../components/Cards/images/card36.png'
 
