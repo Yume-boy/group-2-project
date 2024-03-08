@@ -6,6 +6,7 @@ import { FaStar } from "react-icons/fa";
 import { CgDisplayGrid } from "react-icons/cg";
 import { CgDisplaySpacing } from "react-icons/cg";
 import { useCart } from 'react-use-cart';
+import { Link } from 'react-router-dom';
 const CategoryProducts = () => {
   const [display1, setDisplay1] = useState('d-none')
 
