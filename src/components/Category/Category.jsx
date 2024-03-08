@@ -5,17 +5,15 @@ import ProductSection from '../ProductSection/ProductSection';
 import OfficialStore from '../officialStore/OfficialStore';
 import CategoryProducts from '../categoryProducts/CategoryProducts';
 import CategoryEssay from '../categoryEssay/CategoryEssay';
-import Card from '../Cards/Card';
-import cardData3 from '../../apiData/cardData3';
 import imageFour from '../../apiData/imageFour'
-
+import { Link } from 'react-router-dom';
 
 const Category = () => {
   return (
     <div className="container-lg">
       
-      <div className="row my-2">
-        <div className="col-12 direction d-none d-lg-block"><a href="/" className='text-reset'>Home</a> {' > '} <span> Fashion</span></div>
+      <div className="row my-2 d-none d-lg-block">
+        <div className="col-12 direction d-none d-lg-block"><Link to="/" className='text-reset'>Home</Link> {' > '} <span> Fashion</span></div>
       </div>
       <div className="row">
         <div className='box mb-0'>
@@ -29,7 +27,7 @@ const Category = () => {
       </div>
 
       <div className='mt-4'>
-        <ProductSection data={imageFour} left='Top Deals' Right="See all >" color='#fff'/>
+        <ProductSection data={imageFour} left='Top Deals' Right="See all >" color='#fff' flash='d-none' display='d-none'/>
         <div className='banner-carousel-1'>
               <div className={`row bg-white mt-4 g-2 px-2`}>
                 <div className='col-6 py-3 px-1'>
@@ -45,7 +43,7 @@ const Category = () => {
                 </div>
               </div>
         </div>
-        <ProductSection data={imageFour} left='Limited Stocks' Right="See all >" color='#fff'  />
+        <ProductSection data={imageFour} left='Limited Stocks'flash='d-none' display='d-none'  Right="See all >" color='#fff'  />
         <div className='banner-carousel-1'>
               <div className={`row bg-white mt-4 g-2 px-2`}>
                 <div className='col-6 py-3 px-1'>
@@ -61,7 +59,7 @@ const Category = () => {
                 </div>
               </div>
         </div>
-        <ProductSection data={imageFour} left='Top Deals' Right="See all >" color='#fff'/>
+        <ProductSection data={imageFour} left='Top Deals' flash='d-none' display='d-none' Right="See all >" color='#fff'/>
         <div className='banner-carousel-1'>
               <div className={`row bg-white mt-4 g-2 px-2`}>
                 <div className='col-6 py-3 px-1'>

@@ -338,7 +338,7 @@ const ProductDetails = () => {
 
 
 
-        <div className='mt-3 bg-white w-100'><ProductSection data={imageFour}/></div>
+        <div className='mt-3 bg-white w-100'><ProductSection data={imageFour} flash='d-none' display='d-none'/></div>
     </div>
   )
 }

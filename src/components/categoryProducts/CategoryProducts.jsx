@@ -105,7 +105,7 @@ const CategoryProducts = () => {
         </div>
         <hr />
         <div className='category-second d-flex justify-content-between align-items-center'>
-          <div className='pt-2'><p>5198761 products found</p></div>
+          <div className='pt-2'><p>{Math.floor(Math.random*137523)} products found</p></div>
           <div className='grid d-flex'>
             <div onClick={showGrid1}><CgDisplayGrid /></div>
             <div onClick={showGrid2}><CgDisplaySpacing /></div>
