@@ -9,7 +9,7 @@ import card8 from '../components/Cards/images/artboard-7.png'
 import card9 from '../components/Cards/images/artboard-8.png'
 import card10 from '../components/Cards/images/artboard-9.png'
 import card11 from '../components/Cards/images/artboard-10.png'
-import card12 from '../components/Cards/images/artboard-11png'
+import card12 from '../components/Cards/images/artboard-11.png'
 
 const firstCard = [
   {
