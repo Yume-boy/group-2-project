@@ -109,9 +109,9 @@ const Footer = () => {
             <div className="col-3 pe-5 py-4 ">
               <h4 className='text-white ps-5 mb-1 left-text-header'>ABOUT JUMIA</h4>
               <div className='left-text-content ps-5 py-2 mb-2 d-flex flex-column'>
-                <a className='text-white footer-link ' href ='/about'>
+                <Link className='text-white footer-link ' to ='/about'>
                   About us
-                </a>
+                </Link>
                 <a className='text-white footer-link '>
                   Jumia careers
                 </a>
