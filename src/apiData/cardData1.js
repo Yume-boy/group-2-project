@@ -7,7 +7,7 @@ import card6 from '../components/Cards/images/catrd18.jpg'
 import card7 from '../components/Cards/images/card19.jpg'
 import card8 from '../components/Cards/images/card20.jpg'
 import card9 from '../components/Cards/images/card21.jpg'
-import card10 from '../components/Cards/images/card22.jpg'
+import card10 from '../components/Cards/images/card22.png'
 import card11 from '../components/Cards/images/card23.jpg'
 import card12 from '../components/Cards/images/card24.jpg'
 

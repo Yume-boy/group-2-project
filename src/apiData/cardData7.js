@@ -1,9 +1,9 @@
-import card1 from '../components/Cards/images/card7.png'
-import card2 from '../components/Cards/images/card8.png'
-import card3 from '../components/Cards/images/card9.png'
-import card4 from '../components/Cards/images/card10.png'
-import card5 from '../components/Cards/images/card11.png'
-import card6 from '../components/Cards/images/card12.png'
+import card1 from '../components/Cards/images/card7.jpg'
+import card2 from '../components/Cards/images/card8.jpg'
+import card3 from '../components/Cards/images/card9.jpg'
+import card4 from '../components/Cards/images/card10.jpg'
+import card5 from '../components/Cards/images/card11.jpg'
+import card6 from '../components/Cards/images/card12.jpg'
 
 const cardData7 = [
     {
