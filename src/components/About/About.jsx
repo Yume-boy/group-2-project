@@ -1,6 +1,7 @@
 import React from 'react'
 import  './About.css'
 import { useLayoutEffect } from 'react';
+import lol from '../components/LinkSection/KE_W19_LP_About_us_01.jpg'
 
 const About = () => {
 	
@@ -25,7 +26,7 @@ const About = () => {
         </div>
         <div className='line'></div>
         <div className='image mt-4'>
-          <img src="../components/LinkSection/KE_W19_LP_About_us_01.jpg" alt="" />
+          <img src={lol} alt="" />
         </div>
         <div className='likkle mt-4'>
         </div>
