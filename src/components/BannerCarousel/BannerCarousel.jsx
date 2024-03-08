@@ -5,6 +5,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import love1 from '../Cards/images/Double_banner___572_x_250-her.jpg'
+import love2 from '../Cards/images/Double_banner___572_x_250-him.jpg'
+
 
 // import required modules
 import { Autoplay, Pagination, Navigation, Mousewheel } from 'swiper/modules';
@@ -204,10 +207,10 @@ const BannerCarousel = (props) => {
         
               <div className={`row bg-white mt-4 g-2 px-2`}>
                 <div className='col-6 py-3 px-1'>
-                  <img src="src/components/Cards/images/Double_banner___572_x_250-her.jpg" alt="" />
+                  <img src={love1} alt="" />
                 </div>
                 <div className='col-6 py-3 px-1'>
-                  <img src="src/components/Cards/images/Double_banner___572_x_250-him.jpg" alt="" />
+                  <img src={love2} alt="" />
                 </div>
               </div>
             </div>

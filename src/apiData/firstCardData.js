@@ -1,62 +1,75 @@
+import card1 from '../components/Cards/images/artboard-12.gif'
+import card2 from '../components/Cards/images/artboard-1.png'
+import card3 from '../components/Cards/images/artboard-2.png'
+import card4 from '../components/Cards/images/artboard-3.png'
+import card5 from '../components/Cards/images/artboard-4.png'
+import card6 from '../components/Cards/images/artboard-5.png'
+import card7 from '../components/Cards/images/artboard-6.gif'
+import card8 from '../components/Cards/images/artboard-7.png'
+import card9 from '../components/Cards/images/artboard-8.png'
+import card10 from '../components/Cards/images/artboard-9.png'
+import card11 from '../components/Cards/images/artboard-10.png'
+import card12 from '../components/Cards/images/artboard-11png'
+
 const firstCard = [
   {
     id: 1,
-    imagesrc: "src/components/Cards/images/artboard-12.gif",
+    imagesrc: card1,
     productName: "Clearance Sales"
   },
   {
     id: 11,
-    imagesrc: "src/components/Cards/images/artboard-1.png",
+    imagesrc: card2,
     productName: "Best deals"
   },
   {
     id: 2,
-    imagesrc: "src/components/Cards/images/artboard-2.png",
+    imagesrc: card3,
     productName: "Phones & Tablets"
   },
   {
     id: 3,
-    imagesrc: "src/components/Cards/images/artboard-3.png",
+    imagesrc: card4,
     productName: "Computing Deals"
   },
   {
     id: 4,
-    imagesrc: "src/components/Cards/images/artboard-4.png",
+    imagesrc: card5,
     productName: "Groceries"
   },
   {
     id: 5,
-    imagesrc: "src/components/Cards/images/artboard-5.png",
+    imagesrc: card6,
     productName: "Televisions"
   },
   {
     id: 6,
-    imagesrc: "src/components/Cards/images/artboard-6.png",
+    imagesrc: card7,
     productName: "Men's Sneakers"
   },
   {
     id: 7,
-    imagesrc: "src/components/Cards/images/artboard-7.png",
+    imagesrc: card8,
     productName: "Mobile Accesories"
   },
   {
     id: 8,
-    imagesrc: "src/components/Cards/images/artboard-8.png",
+    imagesrc: card9,
     productName: "Generators"
   },
   {
     id: 9,
-    imagesrc: "src/components/Cards/images/artboard-9.png",
+    imagesrc: card10,
     productName: "Refrigerators"
   },
   {
     id: 10,
-    imagesrc: "src/components/Cards/images/artboard-10.png",
-    productName: "Official store deals"
+    imagesrc: card11,
+    productName: "Official store deals",
   },
   {
     id: 12,
-    imagesrc: "src/components/Cards/images/artboard-11.png",
+    imagesrc: card12,
     productName: "#5,000 store"
   }
 ]

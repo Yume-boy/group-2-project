@@ -7,6 +7,15 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Link } from 'react-router-dom';
+import pay from '../components/LinkSection/JForce (1).png'
+import top1 from '../components/LinkSection/top-1.jpg'
+import top2 from '../components/LinkSection/top-2.jpg'
+import top3 from '../components/LinkSection/top-3.jpg'
+import top4 from '../components/LinkSection/top-4.jpg'
+import top5 from '../components/LinkSection/top-5.jpg'
+import top6 from '../components/LinkSection/top-6.jpg'
+import top7 from '../components/LinkSection/top-7.jpg'
+
 
 // import required modules
 import { Autoplay, Pagination, Navigation, Mousewheel } from 'swiper/modules';
@@ -934,12 +943,12 @@ useShow12('d-none')
       >
         <SwiperSlide><img src="https://ng.jumia.is/cms/0-1-initiatives/happy-hour/2024/FEB/28th/712X384_Mega_savings.jpg" alt="" /></SwiperSlide>
         <SwiperSlide><img src="https://ng.jumia.is/cms/0-1-initiatives/happy-hour/2024/FEB/28th/712X384_Mega_savings.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./src/components/LinkSection/top-3.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src={top3} alt="" /></SwiperSlide>
         <SwiperSlide><img src="https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Brand-days/febuary/adidas/712x384.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./src/components/LinkSection/top-5.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./src/components/LinkSection/top-6.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./src/components/LinkSection/top-7.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./src/components/LinkSection/top-4.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src={top4} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={top5} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={top7} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={top1} alt="" /></SwiperSlide>
       </Swiper>
 
       <Swiper
@@ -962,14 +971,14 @@ useShow12('d-none')
         className="linkSection d-lg-none"
         
       >
-        <SwiperSlide><img src="./src/components/LinkSection/top-1.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./src/components/LinkSection/top-2.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./src/components/LinkSection/top-3.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./src/components/LinkSection/top-4.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./src/components/LinkSection/top-5.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./src/components/LinkSection/top-6.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./src/components/LinkSection/top-7.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./src/components/LinkSection/top-4.png" alt="" /></SwiperSlide>
+      <SwiperSlide><img src="https://ng.jumia.is/cms/0-1-initiatives/happy-hour/2024/FEB/28th/712X384_Mega_savings.jpg" alt="" /></SwiperSlide>
+      <SwiperSlide><img src="https://ng.jumia.is/cms/0-1-initiatives/happy-hour/2024/FEB/28th/712X384_Mega_savings.jpg" alt="" /></SwiperSlide>
+      <SwiperSlide><img src={top3} alt="" /></SwiperSlide>
+      <SwiperSlide><img src="https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Brand-days/febuary/adidas/712x384.jpg" alt="" /></SwiperSlide>
+      <SwiperSlide><img src={top4} alt="" /></SwiperSlide>
+      <SwiperSlide><img src={top5} alt="" /></SwiperSlide>
+      <SwiperSlide><img src={top7} alt="" /></SwiperSlide>
+      <SwiperSlide><img src={top1} alt="" /></SwiperSlide>
       </Swiper>
 
       
@@ -999,7 +1008,7 @@ useShow12('d-none')
                 <h6 className='ps-2'>Best Deals</h6>
                </div>
             </div>
-            <img src="./src/components/LinkSection/JForce (1).png" alt="" />
+            <img src={pay} alt="" />
             
           </div>
         </div>

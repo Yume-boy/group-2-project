@@ -1,27 +1,34 @@
+import card1 from '../components/Cards/images/card31.png'
+import card2 from '../components/Cards/images/card32.png'
+import card3 from '../components/Cards/images/card33.png'
+import card4 from '../components/Cards/images/card34.png'
+import card5 from '../components/Cards/images/card35.png'
+import card6 from '../components/Cards/images/card36.png'
+
 const cardData4 = [
     {
         id: 1,
-        imagesrc: "../src/components/cards/images/card31.png",
+        imagesrc: card1,
     },
     {
         id: 2,
-        imagesrc: "../src/components/cards/images/card32.png",
+        imagesrc: card2,
     },
     {
         id: 3,
-        imagesrc: "../src/components/cards/images/card33.png",
+        imagesrc: card3,
     },
     {
         id: 4,
-        imagesrc: "../src/components/cards/images/card34.jpg",
+        imagesrc: card4,
     },
     {
         id: 5,
-        imagesrc: "../src/components/cards/images/card35.png",
+        imagesrc: card5,
     },
     {
         id: 6,
-        imagesrc: "../src/components/cards/images/card36.png",
+        imagesrc: card6,
     },
 ]
 

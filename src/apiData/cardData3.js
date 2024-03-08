@@ -1,32 +1,39 @@
+import card1 from '../components/Cards/images/card25.png'
+import card2 from '../components/Cards/images/card26.png'
+import card3 from '../components/Cards/images/card27.png'
+import card4 from '../components/Cards/images/card28.png'
+import card5 from '../components/Cards/images/card29.png'
+import card6 from '../components/Cards/images/card30.png'
+
 const cardData3 = [
     {
         id: 1,
-        imagesrc: "../src/components/cards/images/card25.png",
+        imagesrc: card1,
         ProductName: "Andriod Phones"
     },
     {
         id: 2,
-        imagesrc: "../src/components/cards/images/card26.png",
+        imagesrc: card2,
         ProductName: "IPhones"
     },
     {
         id: 3,
-        imagesrc: "../src/components/cards/images/card27.png",
+        imagesrc: card3,
         ProductName: "Note Phones"
     },
     {
         id: 4,
-        imagesrc: "../src/components/cards/images/card28.png",
+        imagesrc: card4,
         ProductName: "Andriod Tablet"
     },
     {
         id: 5,
-        imagesrc: "../src/components/cards/images/card29.png",
+        imagesrc: card5,
         ProductName: "Ipads"
     },
     {
         id: 6,
-        imagesrc: "../src/components/cards/images/card30.png",
+        imagesrc: card6,
         ProductName: "Fold Phones"
     }
 ]
