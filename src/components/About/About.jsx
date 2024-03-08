@@ -1,5 +1,5 @@
 import React from 'react'
-import  './About.css'
+import  '../About.css'
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
         </div>
         <div className='line'></div>
         <div className='image mt-4'>
-          <img src="src/components/LinkSection/KE_W19_LP_About_us_01.jpg" alt="" />
+          <img src="../components/LinkSection/KE_W19_LP_About_us_01.jpg" alt="" />
         </div>
         <div className='likkle mt-4'>
         </div>
