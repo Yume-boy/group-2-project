@@ -934,12 +934,12 @@ useShow12('d-none')
       >
         <SwiperSlide><img src="https://ng.jumia.is/cms/0-1-initiatives/happy-hour/2024/FEB/28th/712X384_Mega_savings.jpg" alt="" /></SwiperSlide>
         <SwiperSlide><img src="https://ng.jumia.is/cms/0-1-initiatives/happy-hour/2024/FEB/28th/712X384_Mega_savings.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="src/components/LinkSection/top-3.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./src/components/LinkSection/top-3.png" alt="" /></SwiperSlide>
         <SwiperSlide><img src="https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Brand-days/febuary/adidas/712x384.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="src/components/LinkSection/top-5.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="src/components/LinkSection/top-6.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="src/components/LinkSection/top-7.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="src/components/LinkSection/top-4.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./src/components/LinkSection/top-5.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./src/components/LinkSection/top-6.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./src/components/LinkSection/top-7.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./src/components/LinkSection/top-4.png" alt="" /></SwiperSlide>
       </Swiper>
 
       <Swiper
@@ -962,14 +962,14 @@ useShow12('d-none')
         className="linkSection d-lg-none"
         
       >
-        <SwiperSlide><img src="src/components/LinkSection/top-1.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="src/components/LinkSection/top-2.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="src/components/LinkSection/top-3.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="src/components/LinkSection/top-4.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="src/components/LinkSection/top-5.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="src/components/LinkSection/top-6.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="src/components/LinkSection/top-7.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="src/components/LinkSection/top-4.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./src/components/LinkSection/top-1.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./src/components/LinkSection/top-2.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./src/components/LinkSection/top-3.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./src/components/LinkSection/top-4.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./src/components/LinkSection/top-5.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./src/components/LinkSection/top-6.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./src/components/LinkSection/top-7.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./src/components/LinkSection/top-4.png" alt="" /></SwiperSlide>
       </Swiper>
 
       
@@ -999,7 +999,7 @@ useShow12('d-none')
                 <h6 className='ps-2'>Best Deals</h6>
                </div>
             </div>
-            <img src="src/components/LinkSection/JForce (1).png" alt="" />
+            <img src="./src/components/LinkSection/JForce (1).png" alt="" />
             
           </div>
         </div>

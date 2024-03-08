@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-
 import { NavLink, Link } from "react-router-dom";
 import { useCart } from 'react-use-cart';
 import { useLocation } from 'react-router-dom';
@@ -196,7 +195,7 @@ const Header = () => {
               </div>
               <div className="col-6 text-center">
                 <img className='img-fluid me-3' width={67} height={20} src="./public/Jumia-Logo.png" alt="" />
-                <img className='img-fluid me-3 jusz' width={67} height={20} src="src/components/Cards/images/JumiaPay-removebg-preview.png" alt="" />
+                <img className='img-fluid me-3 jusz' width={67} height={20} src="./src/components/Cards/images/JumiaPay-removebg-preview.png" alt="" />
               </div>
               <div className="col-3 text-center" style={{color: '#f68b1e'}}>
                 
@@ -220,7 +219,7 @@ const Header = () => {
                       <div type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></div>
                       <div class="offcanvas-title ms-" id="offcanvasNavbar2Label">
                         <Link to={'/'}>
-                          <img className='img-fluid ' width={100} height={22} src="../public/Jumia-Logo.png" alt="" />
+                          <img className='img-fluid ' width={100} height={22} src="./public/Jumia-Logo.png" alt="" />
                         </Link>
                     </div>
                   </div>

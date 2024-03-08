@@ -1,7 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import { LuMessagesSquare } from "react-icons/lu";
-import contactData from '../../apiData/contactCardData';
+import contactData from './../apiData/contactCardData';
 import { useState } from 'react';
 
 const Contact = () => {
