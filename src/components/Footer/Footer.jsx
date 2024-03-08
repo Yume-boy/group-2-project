@@ -278,7 +278,7 @@ const Footer = () => {
               <span>Help Center</span>
             </div>
             <div className="col-3 text-center text-white mobile-middle">
-             <a href="/contact"className='text-reset'> <span>Contact Us</span></a>
+             <Link to="/contact"className='text-reset'> <span>Contact Us</span></Link>
             </div>
             <div className="col-3 text-center text-white mobile-middle">
               <span>terms & Conditions</span>
