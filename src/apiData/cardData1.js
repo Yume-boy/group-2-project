@@ -1,5 +1,5 @@
 import card1 from '../components/Cards/images/card13.jpg'
-import card2 from '../components/Cards/images/cardjpg'
+import card2 from '../components/Cards/images/card14.jpg'
 import card3 from '../components/Cards/images/card15.jpg'
 import card4 from '../components/Cards/images/card16.jpg'
 import card5 from '../components/Cards/images/card17.jpg'
