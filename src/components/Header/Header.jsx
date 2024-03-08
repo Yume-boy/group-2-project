@@ -343,7 +343,7 @@ const Header = () => {
                 <Link to='/category' href=""onMouseEnter={showContent11} onMouseLeave={hideContent11} className='text-reset'><div className='icon1'><HiOutlineDotsCircleHorizontal /></div>Other categories</Link>
               </div>
             </div>
-            <div className={`position-absolute second ${show}`} >
+            <div className={`position-absolute second-1 ${show}`} >
                         <div className="row">
                   <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>FOOD CUPBOARD</h6>
@@ -406,7 +406,7 @@ const Header = () => {
                   </div>
                 </div>
             </div>
-            <div className={`position-absolute second ${show1}`} >
+            <div className={`position-absolute second-1 ${show1}`} >
             <div className="row">
                   <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>MAKEUP</h6>
@@ -478,7 +478,7 @@ const Header = () => {
                   </div>
                 </div>
             </div>
-            <div className={`position-absolute second ${show2}`} >
+            <div className={`position-absolute second-1 ${show2}`} >
             <div className="row">
                   <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Home &amp; Kitchen</h6>
@@ -519,7 +519,7 @@ const Header = () => {
                   </div>
                 </div>
             </div>
-            <div className={`position-absolute second ${show3}`} >
+            <div className={`position-absolute second-1 ${show3}`} >
             <div className="row">
                   <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Small Appliances</h6>
@@ -557,7 +557,7 @@ const Header = () => {
                   </div>
                 </div>
             </div>
-            <div className={`position-absolute second ${show4}`} >
+            <div className={`position-absolute second-1 ${show4}`} >
             <div className="row">
                   <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Mobile Phones</h6>
@@ -623,7 +623,7 @@ const Header = () => {
                   </div>
                 </div>
             </div>
-            <div className={`position-absolute second ${show5}`} >
+            <div className={`position-absolute second-1 ${show5}`} >
             <div className="row">
                   <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Computers</h6>
@@ -681,7 +681,7 @@ const Header = () => {
                   </div>
                 </div>
             </div>
-            <div className={`position-absolute second ${show6}`} >
+            <div className={`position-absolute second-1 ${show6}`} >
             <div className="row">
                   <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Television &amp; Video</h6>
@@ -724,7 +724,7 @@ const Header = () => {
                 </div>
             
             </div>
-            <div className={`position-absolute second ${show7}`} >
+            <div className={`position-absolute second-1 ${show7}`} >
             <div className="row">
                   <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Women's Fashion</h6>
@@ -795,7 +795,7 @@ const Header = () => {
                   </div>
                 </div>
             </div>
-            <div  className={`position-absolute second ${show8}`} >
+            <div  className={`position-absolute second-1 ${show8}`} >
             <div className="row">
                   <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Apparel &amp; Accessories</h6>
@@ -858,7 +858,7 @@ const Header = () => {
                   </div>
                 </div>
             </div>
-            <div className={`position-absolute second ${show9}`} >
+            <div className={`position-absolute second-1 ${show9}`} >
             <div className="row">
                   <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>PlayStation</h6>
@@ -913,7 +913,7 @@ const Header = () => {
 
                 </div>
             </div>
-            <div className={`position-absolute second ${show10}`} >
+            <div className={`position-absolute second-1 ${show10}`} >
             <div className="row">
                   <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Cardio Training</h6>
@@ -964,7 +964,7 @@ const Header = () => {
                   
                 </div>
             </div>
-            <div className={`position-absolute second ${show11}`} >
+            <div className={`position-absolute second-1 ${show11}`} >
             <div className="row">
                   <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Toys &amp; Games</h6>
@@ -1014,7 +1014,7 @@ const Header = () => {
                   
                 </div>
             </div>
-            <div className={`position-absolute second ${show12}`} >
+            <div className={`position-absolute second-1 ${show12}`} >
             <div className="row">
                   <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Women's Fashion</h6>

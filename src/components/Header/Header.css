@@ -7,6 +7,19 @@
     width: 100% !important;
 }
 
+.jpay {
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.jpay:hover {
+    filter: grayscale(0);
+}
+
+.form-control {
+    border-radius: 0 20px 20px 0 !important;
+}
+
 .header-top-strip {
     background: #4b797d;
     width: 100%;
@@ -37,15 +50,6 @@
     margin-left: 8px;
     font-size: .8rem;
     padding: 8px 14px ;
-    border-radius: 5px;
-}
-
-.jusz {
-    filter: grayscale(100%);
-}
-
-.jusz:hover{
-    filter: grayscale(0);
 }
 
 .header-bottom-strip button:hover {
@@ -105,8 +109,8 @@
 }
 
 .navigation {
-    top: 55px;
-    left: 50px;
+    top: 50px;
+    left: 5px;
     z-index: 1000;
     border-radius: 10px;
     width: 200px;
@@ -137,6 +141,7 @@
   .second-1 h6 {
     font-size: 13px;
     text-transform: uppercase;
+    font-weight: 400;
   }
   
   .second-1 hr {
@@ -160,7 +165,6 @@
     font-weight: 300;
   }
 
-  
 
 
 
