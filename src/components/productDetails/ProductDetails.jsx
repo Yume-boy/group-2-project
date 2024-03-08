@@ -1,5 +1,5 @@
 import React from 'react'
-import phones from './../apiData/Fashion'
+import phones from '../../apiData/Fashion'
 import './ProductDetails.css'
 import ProductSection from './ProductSection/ProductSection'
 import imageFour from '../../apiData/imageFour'
