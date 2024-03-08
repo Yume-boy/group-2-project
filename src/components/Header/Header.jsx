@@ -10,7 +10,7 @@ import { BsShop } from "react-icons/bs";
 import { BsBox2 } from "react-icons/bs";
 import { GiEyelashes } from "react-icons/gi";
 import { FaRegHeart } from "react-icons/fa";
-import { GrDropbox } from "react-icons/gr";
+import { GrDropbox } from "react-icons/gr"
 import { CiApple } from "react-icons/ci";
 import { PiCookingPotBold } from "react-icons/pi";
 import { GoHome } from "react-icons/go";
