@@ -25,7 +25,7 @@ import { LuBaby } from "react-icons/lu";
 import { IoIosArrowDown, IoIosHelpCircleOutline } from "react-icons/io";import { IoCartOutline } from "react-icons/io5";
 import { MdOutlineMarkChatRead } from "react-icons/md";
 import { LuTicket } from "react-icons/lu";
-import Jumia from 'public\Jumia-Logo.png'
+import Jumia from 'public/Jumia-Logo.png'
 
 
 
